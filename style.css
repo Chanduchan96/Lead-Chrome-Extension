@@ -17,11 +17,20 @@ button{
     background: #5f9341;
     color: white;
     padding : 10px 20px;
-    border:none;
+    border:1px solid #5f9341;
     margin:5px;
     font-weight:bold;
   
-
+}
+button:hover{
+    background: rgb(95, 216, 95);
+}
+#delete-btn{
+    background:whitesmoke;
+    color:#5f9341;
+}
+#delete-btn:hover{
+    border:1px solid red;
 }
 ul{
    margin-top:20px;
